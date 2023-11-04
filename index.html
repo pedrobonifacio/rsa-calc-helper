@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+
+
+  <div id="container">
+    <h1>RSA</h1>
+    <form id="exponentiationForm">
+      <div class="form-group">
+        <label for="n">Número:</label>
+        <input type="number" id="n" required value="3431"><br><br>
+      </div>
+      <div class="form-group">
+
+        <label for="exponent">Expoente:</label>
+        <input type="number" id="exponent" required value="4813"><br><br>
+      </div>
+      <div class="form-group">
+
+        <label for="modulo">Mod:</label>
+        <input type="number" id="modulo" required value="12091"><br><br>
+      </div>
+      <button type="submit" onclick="rsaHtmlConnect()">Calcular</button>
+    </form>
+    <div id="results">
+    </div>
+  </div>
+</body>
+
+</html>
