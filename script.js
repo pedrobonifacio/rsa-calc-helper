@@ -65,7 +65,7 @@ function rsa (n, exp, mod){
   return resStr;
 }
 
-function rsaHtmlConnect() {
+function rsaHtmlConnect(e) {
     const n = parseInt(document.getElementById('n').value);
     const exponent = parseInt(document.getElementById('exponent').value);
     const modulo = parseInt(document.getElementById('modulo').value);
